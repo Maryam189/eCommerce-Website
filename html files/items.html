@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Items</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      
+            ul {
+          background-color: rgb(196, 49, 49);  
+          list-style-type: none;
+         
+          padding: 0;
+          overflow: hidden;
+        }
+        
+        li {
+          display: inline;
+          list-style: none;
+          margin: 0 17px;
+          float: left;
+          line-height: 80px;
+        }
+        
+        li a {
+        
+         border: none;
+         color: white;
+         text-align: center;
+         font- size: 28px;
+         padding: 20px;
+         width: 200px;
+         transition: 0.5s;
+         cursor: pointer;
+          
+        }
+   button {
+       width: 120px;
+       height: 40px;
+       cursor: pointer;
+       margin: 5px;
+       display: flexbox;
+
+   }
+   .cart {
+       background: #b63939;
+       border-radius: 10px;
+   }
+   .cart i{
+       position: absolute;
+       margin-left: 90px;
+       column-fill: transparent;
+       transition: 400ms;
+       color: transparent;
+   }
+  .cart span {
+      transition: 400ms;
+  }
+  .cart:hover span{
+      margin-right: 5px;
+  }
+  .cart:hover i{
+      margin-left: 5px;
+      column-fill: white;
+      color: black;
+  }
+  button: focus{
+    outline:none;
+
+  }
+        
+        </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <center>
+                <img src="images/main.jpeg" alt="NO IMAGE FOUND" style="width: 500px; height:100px">
+            </center>
+        </div>
+        <nav>
+            <ul>
+            
+              <li> <a href="index.html"> Home </a> </li>
+              <li> <a href="page.html"> Cart </a> </li>
+              <li> <a href="signin.html"> Sign Out </a></li>
+              <li> <a href= "Top 5 products.html">  OUR TOP 5 PRODUCTS </a></li>
+              <li style="font-weight: bold ; color: rgb(255, 255, 255);"><input  type="search"id="mySearch" name="q"> REDONLINE SEARCH</li>
+              <li> <a href="user.html"> Your Profile </a></li>
+              <li> <a href= "items.html"> All Products </a></li>
+            </ul>
+         </nav>
+            
+    </div>
+    <br>
+    <center>
+        <h1 style="background-color:  rgb(196, 49, 49); color: white; ">All Products here</h1>
+    </center>    
+        <table>
+            <tr>
+                <td>
+                    <img src="images/laptop1a.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Intel Core i7 640LM </h3>      
+                        <p> Hardisk : 320 gb </p>  
+                        <p>RAM : 8 gb</p>
+                        <p>Camera : yes</p>
+                        <p>Battery : yes (2 hours time on internet)</p>
+                        <p>Price : Rs 1,20,000</p>
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                            <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                    </td>
+                    <td><img src="images/buynow.png" alt="NO IMAGE FOUND" style="width: 200px; height:200px; margin-right: ;"></td>
+                </td>
+            </tr>
+            
+            <br>
+            <tr>
+                <td>
+                    <img src="images/laptop2a.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Lenovo Laptop  </h3> 
+                        <p>RAM : 8gb</p>
+                        <p>Camera : yes</p>
+                        <p>Battery : yes (3 hours)</p>
+                        <p>Screen display size : 14inches</p>
+                        <p>Price : Rs 78,000</p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td> 
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <img src="images/car1a.jpeg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Suzuki every join 2015 model fresh import 2020 </h3>   
+                        <p>Model : Every</p>
+                        <p>Year : 2015</p>
+                        <p>Fuel : Petrol</p>
+                        <p>Price : Rs 2,600,000</p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <img src="images/bag1.jpeg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Suitcase </h3> 
+                        <p> Size : 20 inch  </p>  
+                        <p>Rs 50,000</p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td>
+                </td>
+            </tr>
+            <br>
+           <tr>
+            <td>
+                <img src="images/note20.jpeg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                <td>
+                    <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Samsung Galaxy Note 20 </h3> 
+                    <p>Rs 179,999</p>
+                    <p><del>Rs 165,999</del></p>
+                    <li><a href="cart.html">
+    
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                          <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                  
+                       </a></li>
+                </td>
+            </td>
+        </tr>
+            <tr>
+                <td>
+                    <img src="images/jeans.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Luxus Men Jeans </h3> 
+                        <p> Size : 20 inch </p>  
+                        <p>Rs 799  (-38%)</p>
+                        <p><del>Rs 1299</del> </p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <img src="images/mask.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Washable/Re-Usable Face Mask </h3> 
+                        <p> Rs 149  (-25%)</p>
+                        <p><del> Rs 199 </del> </p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <img src="images/iphone-12-pro.jpeg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Apple Iphone 12 Pro Max </h3> 
+                        <p> Rs 165,999 </p>
+                        <p><del> Rs 2,48,000 </del> </p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <img src="images/obama.jpeg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                    <td>
+                        <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> A promise land by Barak Obama </h3> 
+                        <p> Rs 3500 </p>
+                        <li><a href="cart.html">
+    
+                            <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                              <span style="color:white" >Add to cart</span>
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </button>
+                      
+                           </a></li>
+                    </td>
+                </td>
+            </tr>
+        </tr>
+       
+        <br>
+        <tr>
+            <td>
+                <img src="images/watch1a.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                <td>
+                    <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> New Style Silicone Wrist Sport Band Strap </h3> 
+                    <p> Rs 1999 </p> 
+                    <p><del>Rs 2999 </del></p>
+                    <p>Color : Pink</p>
+                    <p>Size : 38mm/42mm</p>
+                    <li><a href="cart.html">
+    
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                          <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                  
+                       </a></li>
+                </td>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <img src="images/PS5.jpeg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                <td>
+                    <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> PLAY STATION 5 </h3> 
+                    <p> 5 Disc Version </p>
+                    <p> Rs 1,00,000 </p>
+                    <li><a href="cart.html">
+    
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                          <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                  
+                       </a></li>
+                </td>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <img src="images/watch.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                <td>
+                    <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px">  Crsytal Stainless Steel Analog  </h3> 
+                    <p> Rs 240 (-29%)</p>
+                    <p><del >Rs 399 </del></p>
+                    <li><a href="cart.html">
+    
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                          <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                  
+                       </a></li>
+                </td>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <img src="images/chief.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                <td>
+                    <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px">  Chef Basket Kitchen Tool - Silver </h3> 
+                    <p> Rs 650 </p>
+                    <li><a href="cart.html">
+    
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                          <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                  
+                       </a></li>
+                </td>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                <img src="images/smart.jpg" alt="NO IMAGE FOUND"style="width: 300px; height:150px; margin:20px" >
+                <td>
+                    <h3 style="font-weight: bold ; color: rgb(0, 0, 0); margin: 20px"> Stylish Digital LED sports Watch </h3> 
+                    <p> Rs 620  (-50%)</p>
+                    <p><del> Rs 1240 </del></p>
+                    <li><a href="cart.html">
+    
+                        <button class="cart" style="margin:0; padding:0; box-sizing:border-box">
+                          <span style="color:white" >Add to cart</span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
+                  
+                       </a></li>
+                </td>
+            </td>
+        </tr>
+            
+        </table>
+      <br><br><br>
+      <img src="images/Footer.jpg " ; alt="No image found" style="width: 1400px; height: 200px">
+    </body>
+</html>

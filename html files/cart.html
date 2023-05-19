@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Cart | RedShop Online</title>
+        <style>
+
+            nav {
+              background-color: rgb(196,49,49);
+                }
+            ul {
+              list-style-type: none;
+              margin-right: 20px;
+              padding: 0;
+              overflow: hidden;
+            }
+            
+            li {
+              display: inline;
+              list-style: none;
+              margin: 0 17px;
+              float: left;
+              line-height: 80px;
+            }
+            
+            li a {
+            
+             border: none;
+             color: white;
+             text-align: center;
+             font- size: 28px;
+             padding: 20px;
+             width: 200px;
+             transition: 0.5s;
+             cursor: pointer;
+              
+            }
+            
+            </style>
+    </head>
+<body>
+    <nav>
+        <ul>
+        
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="page.html"> Cart </a> </li>
+          <li> <a href="signin.html"> Sign Out </a></li>
+          <li> <a href= "Top 5 products.html">  OUR TOP 5 PRODUCTS </a></li>
+          <li style="font-weight: bold ; color: rgb(255, 255, 255);"><input  type="search"id="mySearch" name="q"> REDONLINE SEARCH</li>
+          <li> <a href="user.html"> Your Profile </a></li>
+          <li> <a href= "items.html"> All Products </a></li>
+        </ul>
+     </nav>
+    <center>
+ 
+        <h1 style="background-color: rgb(196,49,49); color: white;" >DETAILS OF YOUR PURCHASING </h1>
+        <img src="images/S.png" alt="NO IMAGE FOUND" style="width: 600px; height:200px">
+
+        <img src="images/sp2.png" alt= "NO IMAGE FOUND" style="width: 200px; height:200px" >
+
+    </center>
+<br>
+<br>
+<br>
+<form name="ShoppingList">
+    <fieldset>
+    
+        <legend>Shopping cart</legend>
+        <label>Item: <input type="text" name="name"></label>
+        <label>Quantity: <input type="text" name="data"></label>
+
+        <input type="button" value="Save"   onclick="SaveItem()">
+        <input type="button" value="Update" onclick="ModifyItem()">
+        <input type="button" value="Delete" onclick="RemoveItem()">
+    </fieldset>
+    <div id="items_table">
+        <h2>Shopping List</h2>
+        <table id="list"></table>
+        <label><input type="button" value="Clear" onclick="ClearAll()">
+        * Delete all items</label>
+        
+    </div>
+    <img src="images/c.png" alt="NO IMAGE FOUND" style="width: 1400px; height:200px">
+</form>
+<img src="images/Footer.jpg "  alt="No image found" style="width: 1400px; height: 200px">
+</body>
+</html>
